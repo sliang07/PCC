@@ -1,0 +1,20 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#container{
+	width: 1000px;
+	height: 1000px;
+	margin: 0px auto;
+}
+	#top{
+		height: 180px;
+		background-color: silver;
+		display:block;
+	}
+	#main{
+		height:820px;
+		display:block;
+		background-color: black;
+	}
