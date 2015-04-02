@@ -1,12 +1,11 @@
 *{
 	margin: 0px;
 	padding: 0px;
-	outline: 1px dotted red;
+	text-decoration: none;
 }
 
 #container{
 	width: 1000px;
-	height: 1000px;
 	margin: 0px auto;
 	}
 	#top{
@@ -51,10 +50,11 @@
 			font-family: "Arial" serif;
 			word-spacing: 6px;
 			font-size: 12px;
-			border-left: 10px;;
+			border-left: 10px;
+			color: black;
 		}
 	#main{
-		height:820px;
+		height:570px;
 		display:block;
 		background: radial-gradient(gray,black);
 	}
@@ -76,6 +76,7 @@
 			display: inline-block;
 			margin-top: 8px;
 			color:#99cc00;
+			padding-right: 400px;
 		}
 			.left_pic{
 				display: inline-block;
@@ -91,9 +92,9 @@
 					padding-bottom: 15px;
 					padding-right: 35px;
 				}
-				.big_right h4,p{
+					.big_right h4,p{
 					margin-left: 20px;
-				}
+					}
 					.big_text h4,p{
 						color: white;
 						font-size: 80%;
@@ -106,4 +107,66 @@
 					padding: 10px 321px 10px 10px;
 					font-family: "times new roman",serif;
 				}
-  
+		.uber_boxs{
+			vertical-align: top;
+			display: inline-block;			
+			background: linear-gradient(180deg,white,#FFFFE6);
+			width: 200px;
+			height: 220px;
+			margin-left: 29px;
+			margin-right: 9px;
+			border-style: groove;
+			border-color: gray;
+		}
+		.uber_boxs img{
+			width:200px;
+		}
+		.uber_boxs p{
+			color: black;
+			width: 160px;
+			font-family: "Arial",serif;
+			font-size: 58%;
+			font-weight:bold;
+			height: 60px;
+		}
+		.uber_boxs a{
+			color: black;
+			background-color: #ffda47;
+			margin-left: 70px;
+			font-size: 57%;
+			font-family: "Arial",serif;
+			padding: 4px;
+			border-bottom: solid;
+			border-top: solid;
+			border-left: solid;
+			border-color: black;
+			display: inline-block;
+			vertical-align: top;
+			border-radius: 4px;
+		}
+  			.uber_head{
+				background-color: #ffda47;
+				padding: 5px 0px 5px 10px;
+  			}
+  			.point{
+  				display: inline-block;
+  				width: 0px;
+  				height:0px;
+  				margin-left: -5px;
+  				border-top: 12px solid transparent;
+  				border-bottom: 12px solid transparent;
+  				border-left: 27px solid #ffda47;
+  				position: absolute;
+  			}
+  			.pointline{
+  				vertical-align: top;
+  				display: inline-block;
+  				width: 0px;
+  				height: 0px;
+  				margin-top: -2px;
+  				margin-left: -5px;
+  				border-top: 15px solid transparent;
+  				border-bottom: 15px solid transparent;
+  				border-left: 28px solid black;
+  			}
+
