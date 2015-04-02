@@ -53,6 +53,9 @@
 			border-left: 10px;
 			color: black;
 		}
+		.navi_bar a{
+			color: gray;
+		}
 	#main{
 		height:570px;
 		display:block;
